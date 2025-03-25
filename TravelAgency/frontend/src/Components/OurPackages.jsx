@@ -6,7 +6,7 @@ const OurPackages = () => {
   const navigate = useNavigate();
   return (
     <div
-      id="Packages"
+      id="packages"
       className="p-10 bg-sky-100 min-h-screen flex flex-col items-center"
     >
       <h2 className="text-4xl font-bold text-gray-800 mb-8">Our Packages</h2>
