@@ -3,7 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Destinations = () => {
   return (
-    <div className="font-macondo">
+    <div id="destinations" className="font-macondo">
       {/* Main Section */}
       <div className="flex justify-center items-center bg-sky-100 py-8">
         <h1 className="text-4xl font-bold">Our Destinations</h1>
@@ -40,7 +40,7 @@ const Destinations = () => {
           ].map((item) => (
             <a
               key={item.id}
-              href="#Packages"
+              href="#packages"
               className="flex flex-col sm:flex-row gap-4 justify-start items-center p-3 text-xl font-medium hover:bg-gray-100 h-28 sm:h-20 w-full"
               id={item.id}
             >
@@ -102,7 +102,7 @@ const Destinations = () => {
               "Vadodara",
             ].map((location) => (
               <li key={location} className="py-2 px-3">
-                <a href="#Packages">
+                <a href="#packages">
                   <i className="fa-solid fa-location-arrow px-1"></i>
                   {location}
                 </a>
