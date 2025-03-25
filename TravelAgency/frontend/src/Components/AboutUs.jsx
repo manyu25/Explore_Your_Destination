@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <section
-      id="about"
+      id="about%20us"
       className="relative min-h-[80vh] bg-cover bg-center bg-fixed py-40 px-6 md:px-12 flex items-center"
       style={{
         backgroundImage: `url("https://www.travelandleisure.com/thmb/LX4znxqtKQYJ3QPu4ArNCuvJw_s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/seljalandsfoss-iceland-1-WATERFALLS1021-e9c2348a42c841d5b9d661d16dcdcf8c.jpg")`,
